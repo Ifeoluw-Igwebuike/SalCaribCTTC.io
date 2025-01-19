@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/campaign.css">
+  <link rel="stylesheet" href="css/mediaquary-index.css">
+  <link rel="shortcut icon" href="image/Sal Army.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Campaign</title>
+</head>
+<body>
+  <!-- Page heading section -->
+  <div class="page-heading" onclick="location.href='index.html'" style="cursor: pointer;">
+    <!-- Salvation Army logo -->
+    <img src="image/Sal Army.png" alt="Salvation Army Logo">
+    <!-- Main heading -->
+    <h1>The Salvation Army Caribbean Teritorial Training College</h1>
+  </div>
+  
+  <!-- Navigation bar -->
+  <nav>
+    
+    <ul id="nav-links">
+      <!-- Menu button for sidebar -->
+      <li class="menu-btn" onclick="showsidebar()">
+        <a href=""><img src="image/menu.svg" alt="Menu"></a>
+      </li>
+      <!-- Navigation links -->
+      <li class="hideOnMobile"><a href="index.html">Home</a></li>
+      <li class="dropdown-1 hideOnMobile">
+        <a href="#" class="dropbtn" onclick="myFunction(event)">Explore <i class="fa fa-caret-down"></i></a>
+        <div id="myDropdown" class="dropdown-content-1">
+          <a href="about.html">About</a>
+          <a href="salCarib-history.html">History</a>
+          <a href="cttc-history.html">CTTC History</a>
+          <a href="what-we-believe.html">What We Believe</a>
+          <a href="gallary.html">Gallary</a>
+        </div>
+      </li>
+      <li class="hideOnMobile"><a href="message.html">Message</a></li>
+      <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+      
+      <!-- Social media links -->
+      <li class="social-nav">
+        <i><a href="https://www.facebook.com/CaribSA" target="_blank"><img src="image/facebook-brands-solid.svg" alt="Facebook"></a></i>
+        <i><a href="https://www.instagram.com/"><img src="image/instagram-brands-solid.svg" alt="Instagram"></a></i>
+        <i><a href="https://x.com/home"><img src="image/x-twitter-brands-solid.svg" alt="Twitter"></a></i>
+        <i><a href="https://www.pinterest.com/"><img src="image/pinterest-brands-solid.svg" alt="Pinterest"></a></i>
+      </li>
+      
+      <!-- Donate button -->
+      <li>
+        <div class="btn">
+          <button onclick="location.href='https://donations.salvationarmy.org/#!/'">Donate</button>
+        </div>
+      </li>
+    </ul>
+    
+    <!-- Sidebar navigation -->
+    <ul class="sidebar">
+      <!-- Close button for sidebar -->
+      <li onclick="hidesidebar()"><a href=""><img src="image/close.svg" alt="Close"></a></li>
+      <!-- Sidebar navigation links -->
+      <li><a href="index.html">Home</a></li>
+      <li class="dropdown-1 ">
+        <a href="#" class="dropbtn" onclick="myFunction(event)">Explore</a>
+        <div id="myDropdown" class="dropdown-content-1">
+          <a href="about.html">About</a>
+          <a href="salCarib-history.html">History</a>
+          <a href="cttc-history.html">CTTC History</a>
+          <a href="what-we-believe.html">What We Believe</a>
+          <a href="gallary.html">Gallary</a>
+        </div>
+      </li>
+      <li><a href="message.html">Message</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+
+  <div class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <h1>Campaign</h1>
+        <!--<p>The CTTC is a place of prayer and holiness experiences</p>-->
+    </div>
+    <div class="scroll-down">
+        <span>Scroll Down</span>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" onclick="window.open('.spiritual-content')"><path d="M12 16.5l6-6-1.41-1.41L12 13.67l-4.59-4.58L6 10.5z"/></svg>
+    </div>
+</div>
+<div class="spiritual-content">
+    <h1>Empowering Communities Through Faith and Service</h1>
+    <p>Campaigns are a pivotal part of the cadet experience at the Caribbean Territorial Training College, offering a unique opportunity to step beyond the classroom and into active ministry. These short-term missions are designed to immerse cadets in practical ministry, allowing them to serve communities, share the gospel, and grow in their understanding of their calling.
+
+    During campaigns, cadets engage with people from all walks of life, offering support, encouragement, and hope through various programs and activities. Whether it’s through outreach events, leading worship, or simply listening to the needs of others, campaigns serve as a hands-on expression of God’s love.
+      
+    For cadets, these experiences are more than an assignment; they are a chance to deepen their faith, form meaningful connections, and witness firsthand the impact of ministry. As they prepare for their journey into full-time service, campaigns help equip them with the skills and compassion needed to carry out their mission with confidence and joy.</p>
+</div>
+<div id="sub-heading">Our Activities</div>
+
+<!-- Section 2: Slider container -->
+<section class="slider-container">
+  <!-- Container for slider images -->
+  <div class="slider-images">
+    <!-- Individual slider image -->
+   <div class="slider-img" onclick="animateAndNavigate(this, 'cadet-life.html')">
+      <img src="image/Cadet life.jpg" alt="1" />
+      <h1>Cadet Life</h1>
+      <div class="details">
+        <h2>Cadet Life</h2>
+      </div>
+    </div>
+    <!-- Individual slider image -->
+    <div class="slider-img" onclick="animateAndNavigate(this, 'champion-of-the-mission.html')">
+      <img src="image/champion-of-mission.jpg" alt="2" />
+      <h1>Champions of The Mission</h1>
+      <div class="details">
+        <h2>Champions of The Mission</h2>
+      </div>
+    </div>
+    <!-- Individual slider image -->
+    <div class="slider-img" onclick="animateAndNavigate(this, 'keepers-of-convenant.html')">
+      <img src="image/Keepers of Convenant.jpg" alt="3" />
+      <h1>Keepers of the Convenant</h1>
+      <div class="details">
+        <h2>Keepers of the Convenant</h2>
+      </div>
+    </div>
+    
+     <div class="slider-img active2" id="hider" onclick="animateAndNavigate(this, 'spiritual-day.html')">
+      <img src="image/spiritual day.jpg" alt="4"/>
+      <h1>Spiritual Day</h1>
+      <div class="details">
+        <h2>Spiritual Day</h2>
+      </div>
+    </div>
+    <!-- Individual slider image -->
+    <div class="slider-img active" onclick="animateAndNavigate(this, 'spiritual-day.html')">
+      <img src="image/spiritual day.jpg" alt="4"/>
+      <h1>Spiritual Day</h1>
+      <div class="details">
+        <h2>Spiritual Day</h2>
+      </div>
+    </div>
+
+    <!-- Individual slider image -->
+    <!--<div class="slider-img" onclick="animateAndNavigate(this, 'campaign.html')">
+      <img src="image/Campaign.jpg" alt="5" onclick="location.href= 'campaign.html'" />
+      <h1>Campaign</h1>
+      <div class="details">
+        <h2>Campaign</h2>
+      </div>
+    </div>-->
+    <!-- Individual slider image -->
+    <div class="slider-img" onclick="animateAndNavigate(this, 'outreach.html')">
+      <img src="image/out reach.jpg" alt="6" onclick="location.href= 'outreach.html'" />
+      <h1>Out reach</h1>
+      <div class="details">
+        <h2>Out Reach</h2>
+      </div>
+    </div>
+    <!-- Individual slider image -->
+    <div class="slider-img" onclick="animateAndNavigate(this, 'field-training.html')">
+      <img src="image/field training.jpg" alt="7" onclick="location.href= 'field-training.html'" />
+      <h1>Field Training</h1>
+      <div class="details">
+        <h2>Field Training</h2>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="contact-us">
+      <div class="footer-container">
+        <div class="map">
+          <!-- Google Maps Placeholder -->
+          <div class="map-placeholder">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d1379.1847625499815!2d-76.8056119505652!3d18.044989839447403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m3!3m2!1d18.0454871!2d-76.8042926!4m0!5e1!3m2!1sen!2sjm!4v1735082644568!5m2!1sen!2sjm" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        <div class="contact-form">
+          <h2>Contact Us</h2>
+          <div class="contact-details">
+            <p><strong>Our Address:</strong> 66, Roehampton Circle, Kingstom 19</p>
+            <p><strong>Our Phone:</strong> +1235 2355 98</p>
+          </div>
+          <form id="contact-form" method="post">
+            <input type="text" id="name" placeholder="Name" required />
+            <input type="email" id="email" placeholder="Email" required />
+            <input type="text" id="subject" placeholder="Subject" required />
+            <textarea id="message" placeholder="Create a message here" required></textarea>
+            <button type="submit" id="send-message" onsubmit="sendEmail();" >Send Message</button>
+          </form>
+        </div>
+      </div>
+    </footer>
+    
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="script.js"></script>
+    <script src="jQuery.js"></script>
+    <script src="slideshow.js"></script>
+    <script src="effect.js"></script>
+    <script src="cont.js"></script>
+    <script src="toogle.js"></script>
+    <script>
+      // JavaScript for slider navigation (if needed)
+          let currentSlide = 3; // Start with the "active" slide
+          const slides = document.querySelectorAll('.slider-img');
+          const totalSlides = slides.length;
+    
+          function showSlide(n) {
+              slides.forEach((slide) => slide.classList.remove('active'));
+              slides[n].classList.add('active');
+              currentSlide = n;
+          }
+    
+          function nextSlide() {
+              currentSlide = (currentSlide + 1) % totalSlides;
+              showSlide(currentSlide);
+          }
+    
+          function prevSlide() {
+              currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+              showSlide(currentSlide);
+          }
+      </script>
+    
+</body>
+</html>

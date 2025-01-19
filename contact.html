@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css-main/contact.css">
+  <link rel="stylesheet" href="css/mediaquary-index.css">
+  <link rel="shortcut icon" href="image/Sal Army.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Contact Us</title>
+</head>
+<body>
+  <!-- Page heading section -->
+  <div class="page-heading" onclick="location.href='index.html'" style="cursor: pointer;">
+    <!-- Salvation Army logo -->
+    <img src="image/Sal Army.png" alt="Salvation Army Logo">
+    <!-- Main heading -->
+    <h1>The Salvation Army Caribbean Teritorial Training College</h1>
+  </div>
+  
+  <!-- Navigation bar -->
+  <nav>
+    
+    <ul id="nav-links">
+      <!-- Menu button for sidebar -->
+      <li class="menu-btn" onclick="showsidebar()">
+        <a href=""><img src="image/menu.svg" alt="Menu"></a>
+      </li>
+      <!-- Navigation links -->
+      <li class="hideOnMobile"><a href="index.html">Home</a></li>
+      <li class="dropdown-1 hideOnMobile">
+        <a href="#" class="dropbtn" onclick="myFunction(event)">Explore <i class="fa fa-caret-down"></i></a>
+        <div id="myDropdown" class="dropdown-content-1">
+          <a href="about.html">About</a>
+          <a href="salCarib-history.html">History</a>
+          <a href="cttc-history.html">CTTC History</a>
+          <a href="what-we-believe.html">What We Believe</a>
+          <a href="gallary.html">Gallary</a>
+        </div>
+      </li>
+      <li class="hideOnMobile"><a href="message.html">Message</a></li>
+      <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+      
+      <!-- Social media links -->
+      <li class="social-nav">
+        <i><a href="https://www.facebook.com/CaribSA" target="_blank"><img src="image/facebook-brands-solid.svg" alt="Facebook"></a></i>
+        <i><a href="https://www.instagram.com/"><img src="image/instagram-brands-solid.svg" alt="Instagram"></a></i>
+        <i><a href="https://x.com/home"><img src="image/x-twitter-brands-solid.svg" alt="Twitter"></a></i>
+        <i><a href="https://www.pinterest.com/"><img src="image/pinterest-brands-solid.svg" alt="Pinterest"></a></i>
+      </li>
+      
+      <!-- Donate button -->
+      <li>
+        <div class="btn">
+          <button onclick="location.href='https://donations.salvationarmy.org/#!/'">Donate</button>
+        </div>
+      </li>
+    </ul>
+    
+    <!-- Sidebar navigation -->
+    <ul class="sidebar">
+      <!-- Close button for sidebar -->
+      <li onclick="hidesidebar()"><a href=""><img src="image/close.svg" alt="Close"></a></li>
+      <!-- Sidebar navigation links -->
+      <li><a href="index.html">Home</a></li>
+      <li class="dropdown-1 ">
+        <a href="#" class="dropbtn" onclick="myFunction(event)">Explore</a>
+        <div id="myDropdown" class="dropdown-content-1">
+          <a href="about.html">About</a>
+          <a href="salCarib-history.html">History</a>
+          <a href="cttc-history.html">CTTC History</a>
+          <a href="what-we-believe.html">What We Believe</a>
+          <a href="gallary.html">Gallary</a>
+        </div>
+      </li>
+      <li><a href="message.html">Message</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="contact-info">
+      <h2>Reach Our Territorial Headquarters</h2>
+      <div class="location">
+        <h3>Caribbean Territorial Headquarters</h3>
+        <p>3 Waterloo Rd, Kingston, Jamaica</p>
+        <p>Phone: +1 876-929-6192</p>
+      </div>
+    </section>
+
+    <section class="contact-info">
+        <h2>Reach Our Training College</h2>
+        <div class="location">
+          <h3>Caribbean Territorial Training College</h3>
+          <p>66 Roehampthon Circle, Kingston 19, Jamaica</p>
+          <p>Phone: +1 876-929-6192</p>
+        </div>
+      </section>
+    
+    <!--<section class="contact-form">
+      <h2>Contact Form</h2>
+      <form action="submit_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        
+        <button type="submit">Submit</button>
+      </form>
+    </section>-->
+    <section class="map">
+        <h2>Our Location</h2>
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1365.3856228488742!2d-76.79283852167009!3d18.01392279221462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8edb3fb2131c4641%3A0x5c962e2f029b175c!2sThe%20Salvation%20Army%20-%20Caribbean%20Territorial%20Headquarters!5e1!3m2!1sen!2sjm!4v1735680691495!5m2!1sen!2sjm" 
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </section>
+    </main>
+
+    <!-- Footer section -->
+  <div class="footer">
+    <img src="image/Sal Army.png" alt="Salvation Army Logo">
+    <h3>The Salvation Army Mission Statement</h3>
+    <p>
+        The Salvation Army, an international movement, is an evangelical part of the universal Christian Church. <br>
+        Its message is based on the Bible. Its ministry is motivated by the love of God. Its mission is to preach <br>
+        the gospel of Jesus Christ and to meet human needs in His name without discrimination.
+    </p>
+    <!-- Footer navigation links -->
+  <nav class="footer-nav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="message.html">Message</a></li>
+      <li><a href="#contact-btn">Contact</a></li>
+    </ul>
+  </nav>
+  </div>
+  
+
+  <script src="script.js"></script>
+  <script src="toogle.js"></script>
+</body>
+</html>

@@ -1,0 +1,354 @@
+@media screen and (max-width: 2000px) {
+  .slideshow{
+    z-index: -999;
+  }
+  }
+@media (max-width: 1084px) {
+    .hideOnMobile{display: none;}
+    .menu-btn{display: block;}
+}
+  @media(max-width: 400px) {
+    .sidebar{width: 100%;}
+  }
+@media (max-width: 1000px) {
+    #nav-links> li {
+        border-left: none;
+        padding-left: 0;
+    }
+}
+@media (max-width: 1084px) {
+  .sidebar {
+    margin-top: 20px;
+    left: 45%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media (max-width:580px ) {
+    .social-nav{
+        display: none;
+    }
+    .page-heading{
+        display: block;
+        height: auto;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .page-heading h1{
+        margin-top: 15px;
+        font-size: 20px;
+    }
+    .page-heading img{
+      width: 50px;
+      height: auto;
+    }
+    .spiritual-content{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .spiritual-content h1{
+      font-size: 25px;
+      line-height: 1.5;
+    }
+    .slideshow .prev .next{
+        display: none;
+    }
+}
+  @media (max-width: 1207px) {
+      .slider-text {
+        position: absolute;
+        bottom: 30%; /* Positions the text at the bottom of the image */
+        left: 5%; 
+      }
+      .ms-text{
+        width: 80%;
+        height: auto;
+        padding-bottom: 50px;
+      }
+    }
+    .c-text {
+      font-size: 35px;
+      margin-top: 100px;
+      margin-bottom: 60px;
+    }
+    .gallary-glimps {
+      flex-direction: row;
+      justify-content: center;
+    }
+    .gallary-glimps > div img {
+      width: 100%;
+      height: auto;
+    }
+@media (max-width: 1200px) {
+    .caption {
+    top: 25%;
+    left: 10%;
+    font-size: 1rem;
+    }
+    
+    .text-2 {
+    font-size: 1rempx;
+    }
+    
+    .btn-main {
+    padding: 12px;
+    margin-top: 15px;
+    }
+    .vs-text{
+        width: 80%;
+        height: auto;
+        padding-bottom: 60px;
+      }
+      .container{
+        height: auto;
+      }
+    }
+    
+    @media (max-width: 768px) {
+    .caption {
+    top: 20%;
+    left: 5%;
+    right: 5%;
+    max-width: 80%;
+    margin: auto;
+    }
+    .slideshow > .prev, .next {
+      top: 75%;
+    }
+    
+    .text-1 {
+    font-size: 28px;
+    }
+    
+    .text-2 {
+    font-size: 16px;
+    }
+    
+    .btn-main {
+    padding: 10px;
+    font-size: 14px;
+    }
+    .ms-text{
+        width: 80%;
+        height: auto;
+        padding-bottom: 50px;
+      }
+
+      .nav-btn {
+        font-size: 18px;
+        padding: 8px 12px;
+      }
+      .slider-item::after {
+        font-size: 14px;
+        padding: 8px 15px;
+      }
+      .slider-container2{
+        display: flex;
+      }
+        .slider-text {
+          position: absolute;
+          bottom: 10%; 
+          left: 5%; 
+          font-size: 18px;
+        }
+        .services-title {
+            font-size: 2rem;
+          }
+        
+          .services-container {
+            flex-direction: column;
+            align-items: center;
+          }
+        
+          .service-card {
+            max-width: 90%;
+          }
+          /*footer*/
+            .footer-container {
+              flex-direction: column;
+              align-items: center;
+            }
+          
+            .map {
+              width: 100%;
+              height: 200px; /* Adjust height for smaller screens */
+            }
+          
+            .contact-form {
+              width: 100%;
+              text-align: center;
+            }
+          
+            .contact-details {
+              text-align: center;
+            }
+          
+            #contact-form {
+              align-items: center;
+            }
+          
+            #contact-form input,
+            #contact-form textarea {
+              width: 90%; /* Adjust width for smaller devices */
+            }
+          
+            #contact-form button {
+              width: 90%; /* Adjust button size */
+            }
+            /**/
+             }
+
+    @media (max-width: 480px) {
+    .caption {
+    top: 20%;
+    left: 5%;
+    right: 5%;
+    }
+    
+    .text-1 {
+    font-size: 24px;
+    }
+    
+    .text-2 {
+    font-size: 14px;
+    }
+    
+    .btn-main {
+    padding: 10px;
+    font-size: 12px;
+    }
+    .services-title {
+        font-size: 1.8rem;
+      }
+    
+      .service-card h3 {
+        font-size: 1.3rem;
+      }
+    
+      .service-card p {
+        font-size: 0.9rem;
+      }
+      /*footer*/
+      .map-placeholder p {
+        font-size: 14px;
+      }
+    
+      .contact-form h2 {
+        font-size: 20px;
+      }
+    
+      .contact-details p {
+        font-size: 12px;
+      }
+    
+      #contact-form input,
+      #contact-form textarea {
+        font-size: 12px;
+        padding: 8px;
+    }
+  }
+
+  /* Responsive Design */
+
+/* Styles for small screens */
+@media (max-width: 600px) {
+  .c-text {
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  .gallary-glimps {
+    flex-direction: column;
+    align-items: center;
+  }
+  .gallary-glimps > div img {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+  /*Slide button*/
+  .slideshow >.prev, .next {
+    display: none;
+  }
+}
+
+/* Styles for medium screens */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .c-text {
+    font-size: 30px;
+    margin-top: 75px;
+    margin-bottom: 45px;
+  }
+  .gallary-glimps {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .gallary-glimps > div img {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+  }
+}
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .team-member, .employee-member {
+    width: 45%; /* Adjust width to fit two per row */
+    margin: 2.5%; /* Adjust margin to fit two per row */
+  }
+}
+
+@media (max-width: 480px) {
+  .team-member, .employee-member {
+    width: 100%; /* Full width for small screens */
+    margin: 10px 0; /* Adjust margin for small screens */
+  }
+}
+
+
+
+
+/*Responsive*/
+@media (max-width: 900px) {
+  .slider{
+    inset: 40px 40px 200px 40px;
+    position: absolute;
+  }
+  .slider .slides{
+    width: 100px;
+    height: 100px;
+    top: initial;
+    bottom: -170px;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0,0.25);
+  }
+
+  .slider .slides:nth-child(1), 
+ .slider .slides:nth-child(2){
+  top: initial;
+  bottom: 0px;
+ }
+ .slider .slides:nth-child(3){
+  left: 0;
+ }
+ .slider .slides:nth-child(4){
+  left: 120px;
+ }
+  .slider .slides:nth-child(5){
+    left: 240px;
+ }
+  .slider .slides:nth-child(6){
+    left: 360px;
+ }
+  .slider .slides:nth-child(7){
+    left: 480px;
+ }
+}
+@media (max-width: 600px) {
+  .content h2{
+  font-size: 2.5em;
+ }
+ .content p{
+  font-size: 1em;
+ }
+}

@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css-main/gallary.css">
+  <link rel="stylesheet" href="css/mediaquary-index.css">
+  <link rel="shortcut icon" href="image/Sal Army.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Gallary</title>
+</head>
+<body>
+  <!-- Page heading section -->
+  <div class="page-heading" onclick="location.href='index.html'" style="cursor: pointer;">
+    <!-- Salvation Army logo -->
+    <img src="image/Sal Army.png" alt="Salvation Army Logo">
+    <!-- Main heading -->
+    <h1>The Salvation Army Caribbean Teritorial Training College</h1>
+  </div>
+  
+  <!-- Navigation bar -->
+  <nav>
+    
+    <ul id="nav-links">
+      <!-- Menu button for sidebar -->
+      <li class="menu-btn" onclick="showsidebar()">
+        <a href=""><img src="image/menu.svg" alt="Menu"></a>
+      </li>
+      <!-- Navigation links -->
+      <li class="hideOnMobile"><a href="index.html">Home</a></li>
+      <li class="dropdown-1 hideOnMobile">
+        <a href="#" class="dropbtn" onclick="myFunction(event)">Explore <i class="fa fa-caret-down"></i></a>
+        <div id="myDropdown" class="dropdown-content-1">
+          <a href="about.html">About</a>
+          <a href="salCarib-history.html">History</a>
+          <a href="cttc-history.html">CTTC History</a>
+          <a href="what-we-believe.html">What We Believe</a>
+          <a href="gallary.html">Gallary</a>
+        </div>
+      </li>
+      <li class="hideOnMobile"><a href="message.html">Message</a></li>
+      <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+      
+      <!-- Social media links -->
+      <li class="social-nav">
+        <i><a href="https://www.facebook.com/CaribSA" target="_blank"><img src="image/facebook-brands-solid.svg" alt="Facebook"></a></i>
+        <i><a href="https://www.instagram.com/"><img src="image/instagram-brands-solid.svg" alt="Instagram"></a></i>
+        <i><a href="https://x.com/home"><img src="image/x-twitter-brands-solid.svg" alt="Twitter"></a></i>
+        <i><a href="https://www.pinterest.com/"><img src="image/pinterest-brands-solid.svg" alt="Pinterest"></a></i>
+      </li>
+      
+      <!-- Donate button -->
+      <li>
+        <div class="btn">
+          <button onclick="location.href='https://donations.salvationarmy.org/#!/'">Donate</button>
+        </div>
+      </li>
+    </ul>
+    
+    <!-- Sidebar navigation -->
+    <ul class="sidebar">
+      <!-- Close button for sidebar -->
+      <li onclick="hidesidebar()"><a href=""><img src="image/close.svg" alt="Close"></a></li>
+      <!-- Sidebar navigation links -->
+      <li><a href="index.html">Home</a></li>
+      <li class="dropdown-1 ">
+        <a href="#" class="dropbtn" onclick="myFunction(event)">Explore</a>
+        <div id="myDropdown" class="dropdown-content-1">
+          <a href="about.html">About</a>
+          <a href="salCarib-history.html">History</a>
+          <a href="cttc-history.html">CTTC History</a>
+          <a href="what-we-believe.html">What We Believe</a>
+          <a href="gallary.html">Gallary</a>
+        </div>
+      </li>
+      <li><a href="message.html">Message</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="gap"></div>
+
+  <!-- Dropdown Gallery -->
+  <div class="dropdown">
+    <div class="dropdown-header" onclick="toggleDropdown(this)">
+      <span>Keepers of the Convenant</span>
+      <span>2024-2026</span>
+    </div>
+    <div class="dropdown-content">
+      <div class="gallery-row">
+        <div class="gallery-item"><img src="Gallary-image/keepers-of-the-convenant-1.jpg" alt="Image 1" class="myImg"></div>
+
+        <div class="gallery-item"><img src="Gallary-image/keepers-of-the-convenant-2.jpg" alt="Image 2" class="myImg"></div>
+
+        <div class="gallery-item"><img src="Gallary-image/keepers-of-the-convenant-3.jpg" alt="Image 3" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/keepers-of-the-convenant-4.jpg" alt="Image 4" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/keepers-of-the-convenant-5.jpg" alt="Image 5" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/keepers-of-the-convenant-6.jpg" alt="Image 6" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/keepers-of-the-convenant-7.jpg" alt="Image 7" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/keepers-of-the-convenant-8.jpg" alt="Image 8" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/keepers-of-the-convenant-9.jpg" alt="Image 9" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/keepers-of-the-convenant-10.jpg" alt="Image 9" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/keepers-of-the-convenant-11.jpg" alt="Image 9" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/keepers-of-the-convenant-12.jpg" alt="Image 9" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/keepers-of-the-convenant-13.jpg" alt="Image 9" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/keepers-of-the-convenant-14.jpg" alt="Image 9" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/keepers-of-the-convenant-15.jpg" alt="Image 9" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/keepers-of-the-convenant-16.jpg" alt="Image 9" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/keepers-of-the-convenant-17.jpg" alt="Image 9" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/keepers-of-the-convenant-18.jpg" alt="Image 9" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/keepers-of-the-convenant-19.jpg" alt="Image 9" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/keepers-of-the-convenant-20.jpg" alt="Image 9" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/keepers-of-the-convenant-21.jpg" alt="Image 9" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/keepers-of-the-convenant-22.jpg" alt="Image 9" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/keepers-of-the-convenant-23.jpg" alt="Image 9" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/keepers-of-the-convenant-24.jpg" alt="Image 9" class="myImg"></div>
+      </div>
+    </div>
+  </div>
+   <!-- Single modal element -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+  <div class="dropdown">
+    <div class="dropdown-header" onclick="toggleDropdown(this)">
+      <span>Champions of the Mission</span>
+      <span>2023-2025</span>
+    </div>
+    <div class="dropdown-content">
+      <div class="gallery-row">
+        <div class="gallery-item"><img src="Gallary-image/champion-of-the-mission-1.jpg" alt="Image 1" class="myImg"></div>
+        
+        <div class="gallery-item"><img src="Gallary-image/champion-of-the-mission-2.jpg" alt="Image 2" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/champion-of-the-mission-3.jpg" alt="Image 3" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/champion-of-the-mission-4.jpg" alt="Image 4" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/champion-of-the-mission-5.jpg" alt="Image 5" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/champion-of-the-mission-6.jpg" alt="Image 6" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/champion-of-the-mission-7.jpg" alt="Image 7" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/champion-of-the-mission-8.jpg" alt="Image 8" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/champion-of-the-mission-9.jpg" alt="Image 9" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/champion-of-the-mission-10.jpg" alt="Image 10" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/champion-of-the-mission-18.jpg" alt="Image 11" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/champion-of-the-mission-19.jpg" alt="Image 11" class="myImg"></div>
+        
+      
+      </div>
+    </div>
+  </div>
+    <!-- Single modal element -->
+  <div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+    <div id="caption"></div>
+  </div>
+
+  <div class="dropdown">
+    <div class="dropdown-header" onclick="toggleDropdown(this)">
+      <span>Defenders of Justice</span>
+      <span>2022-2024</span>
+    </div>
+    <div class="dropdown-content">
+      <div class="gallery-row">
+        <div class="gallery-item"><img src="Gallary-image/defenders-of-justice-18.jpg" alt="Image 13" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/defenders-of-justice-2.jpg" alt="Image 14" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/defenders-of-justice-3.jpg" alt="Image 15" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/defenders-of-justice-5.jpg" alt="Image 17" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/defenders-of-justice-6.jpg" alt="Image 18" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/defenders-of-justice-7.jpg" alt="Image 18" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/defenders-of-justice-8.jpg" alt="Image 19" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/defenders-of-justice-9.jpg" alt="Image 20" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/defenders-of-justice-10.jpg" alt="Image 21" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/defenders-of-justice-11.jpg" alt="Image 22" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/defenders-of-justice-12.jpg" alt="Image 23" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/defenders-of-justice-13.jpg" alt="Image 24" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/defenders-of-justice-14.jpg" alt="Image 25" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/defenders-of-justice-16.jpg" alt="Image 27" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/defenders-of-justice-17.jpg" alt="Image 28" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/defenders-of-justice-19.jpg" alt="Image 28" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/defenders-of-justice-20.jpg" alt="Image 28" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/defenders-of-justice-21.jpg" alt="Image 28" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/defenders-of-justice-22.jpg" alt="Image 28" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/defenders-of-justice-23.jpg" alt="Image 28" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/defenders-of-justice-24.jpg" alt="Image 28" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/defenders-of-justice-25.jpg" alt="Image 28" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/defenders-of-justice-26.jpg" alt="Image 28" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/defenders-of-justice-27.jpg" alt="Image 28" class="myImg"></div>
+        <div class="gallery-item"><img src="Gallary-image/defenders-of-justice-28.jpg" alt="Image 28" class="myImg"></div>
+      </div>
+    </div>
+  </div>
+     <!-- Single modal element -->
+     <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+
+    <div class="dropdown">
+      <div class="dropdown-header" onclick="toggleDropdown(this)">
+        <span>Reflectors of Holiness</span>
+        <span>2021-2023</span>
+      </div>
+      <div class="dropdown-content">
+        <div class="gallery-row">
+          <div class="gallery-item"><img src="Gallary-image/reflectors-of-holiness-set-1.jpg" alt="Image 13" class="myImg"></div>
+          <div class="gallery-item"><img src="Gallary-image/reflectors-of-holiness-set-2.jpg" alt="Image 13" class="myImg"></div>
+          <div class="gallery-item"><img src="Gallary-image/reflectors-of-holiness-set-3.jpg" alt="Image 13" class="myImg"></div>
+          <div class="gallery-item"><img src="Gallary-image/reflectors-of-holiness-set-4.jpg" alt="Image 13" class="myImg"></div>
+          <div class="gallery-item"><img src="Gallary-image/reflectors-of-holiness-set-5.jpg" alt="Image 13" class="myImg"></div>
+          <div class="gallery-item"><img src="Gallary-image/reflectors-of-holiness-set-6.jpg" alt="Image 13" class="myImg"></div>
+          <div class="gallery-item"><img src="Gallary-image/reflectors-of-holiness-set-7.jpg" alt="Image 13" class="myImg"></div>
+          <div class="gallery-item"><img src="Gallary-image/reflectors-of-holiness-set-8.jpg" alt="Image 13" class="myImg"></div>
+          <div class="gallery-item"><img src="Gallary-image/reflectors-of-holiness-set-9.jpg" alt="Image 13" class="myImg"></div>
+          <div class="gallery-item"><img src="Gallary-image/reflectors-of-holiness-set-10.jpg" alt="Image 13" class="myImg"></div>
+          <div class="gallery-item"><img src="Gallary-image/reflectors-of-holiness-set-11.jpg" alt="Image 13" class="myImg"></div>
+          <div class="gallery-item"><img src="Gallary-image/reflectors-of-holiness-set-12.jpg" alt="Image 13" class="myImg"></div>
+          <div class="gallery-item"><img src="Gallary-image/reflectors-of-holiness-set-13.jpg" alt="Image 13" class="myImg"></div>
+          <div class="gallery-item"><img src="Gallary-image/reflectors-of-holiness-set-14.jpg" alt="Image 13" class="myImg"></div>
+          <div class="gallery-item"><img src="Gallary-image/reflectors-of-holiness-set-15.jpg" alt="Image 13" class="myImg"></div>
+          <div class="gallery-item"><img src="Gallary-image/reflectors-of-holiness-set-16.jpg" alt="Image 13" class="myImg"></div>
+          <div class="gallery-item"><img src="Gallary-image/reflectors-of-holiness-set-17.jpg" alt="Image 13" class="myImg"></div>
+        </div>
+      </div>
+    </div>
+       <!-- Single modal element -->
+       <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+      </div>
+
+      <div class="dropdown">
+        <div class="dropdown-header" onclick="toggleDropdown(this)">
+          <span>Messangers of the Grace</span>
+          <span>2019-2021</span>
+        </div>
+        <div class="dropdown-content">
+          <div class="gallery-row">
+            <div class="gallery-item"><img src="Gallary-image/image-1.jpg" alt="Image 13" class="myImg"></div>
+            <div class="gallery-item"><img src="Gallary-image/image-2.jpg" alt="Image 13" class="myImg"></div>
+            <div class="gallery-item"><img src="Gallary-image/image-3.jpg" alt="Image 13" class="myImg"></div>
+            <div class="gallery-item"><img src="Gallary-image/messangers-of-grace-1.jpg" alt="Image 13" class="myImg"></div>
+            <div class="gallery-item"><img src="Gallary-image/messangers-of-grace-2.jpg" alt="Image 13" class="myImg"></div>
+            <div class="gallery-item"><img src="Gallary-image/messangers-of-grace-3.jpg" alt="Image 13" class="myImg"></div>
+            <div class="gallery-item"><img src="Gallary-image/messangers-of-grace-4.jpg" alt="Image 13" class="myImg"></div>
+            <div class="gallery-item"><img src="Gallary-image/messangers-of-grace-5.jpg" alt="Image 13" class="myImg"></div>
+            <div class="gallery-item"><img src="Gallary-image/messangers-of-grace-6.jpg" alt="Image 13" class="myImg"></div>
+            <div class="gallery-item"><img src="Gallary-image/messangers-of-grace.jpg" alt="Image 13" class="myImg"></div>
+            <div class="gallery-item"><img src="Gallary-image/messangers-of-grace-7.jpg" alt="Image 13" class="myImg"></div>
+            <div class="gallery-item"><img src="Gallary-image/messangers-of-grace-8.jpg" alt="Image 13" class="myImg"></div>
+            <div class="gallery-item"><img src="Gallary-image/messangers-of-grace-9.jpg" alt="Image 13" class="myImg"></div>
+            <div class="gallery-item"><img src="Gallary-image/messangers-of-grace-10.jpg" alt="Image 13" class="myImg"></div>
+            <div class="gallery-item"><img src="Gallary-image/messangers-of-grace-11.jpg" alt="Image 13" class="myImg"></div>
+            
+            
+          </div>
+        </div>
+      </div>
+         <!-- Single modal element -->
+         <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img01">
+          <div id="caption"></div>
+        </div>
+
+      <div class="dropdown">
+        <div class="dropdown-header" onclick="toggleDropdown(this)">
+          <span>Messangers of the Kingdom</span>
+          <span>2018-2020</span>
+        </div>
+        <div class="dropdown-content">
+          <div class="gallery-row">
+            <div class="gallery-item"><img src="Gallary-image/messangers-of-the-kingdome-1.jpg" alt="Image 13" class="myImg"></div>
+            <div class="gallery-item"><img src="Gallary-image/messangers-of-the-kingdom-2.jpg" alt="Image 13" class="myImg"></div>
+            <div class="gallery-item"><img src="Gallary-image/messangers-of-the-kingdom-3.jpg" alt="Image 13" class="myImg"></div>
+            <div class="gallery-item"><img src="Gallary-image/messangers-of-the-kingdom-4.jpg" alt="Image 13" class="myImg"></div>
+            <div class="gallery-item"><img src="Gallary-image/messangers-of-the-kingdom-5.jpg" alt="Image 13" class="myImg"></div>
+            <div class="gallery-item"><img src="Gallary-image/messangers-of-the-kingdom-6.jpg" alt="Image 13" class="myImg"></div>
+            <div class="gallery-item"><img src="Gallary-image/messangers-of-the-kingdom-10.jpg" alt="Image 13" class="myImg"></div>
+            <div class="gallery-item"><img src="Gallary-image/messangers-of-the-kingdom-11.jpg" alt="Image 13" class="myImg"></div>
+            <div class="gallery-item"><img src="Gallary-image/messangers-of-the-kingdom-12.jpg" alt="Image 13" class="myImg"></div>
+          </div>
+        </div>
+      </div>
+         <!-- Single modal element -->
+         <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img01">
+          <div id="caption"></div>
+        </div>
+
+        <div class="dropdown">
+          <div class="dropdown-header" onclick="toggleDropdown(this)">
+            <span>Messangers of Compassion</span>
+            <span>2017-2019</span>
+          </div>
+          <div class="dropdown-content">
+            <div class="gallery-row">
+              <div class="gallery-item"><img src="Gallary-image/messangers-of-compassion.jpg" alt="Image 13" class="myImg"></div>
+              <div class="gallery-item"><img src="Gallary-image/messangers-of-compassion-1.jpg" alt="Image 13" class="myImg"></div>
+              <div class="gallery-item"><img src="Gallary-image/messangers-of-compassion-2.jpg" alt="Image 13" class="myImg"></div>
+              <div class="gallery-item"><img src="Gallary-image/messangers-of-compassion-3.jpg" alt="Image 13" class="myImg"></div>
+              <div class="gallery-item"><img src="Gallary-image/messangers-of-compassion-4.jpg" alt="Image 13" class="myImg"></div>
+              <div class="gallery-item"><img src="Gallary-image/messangers-of-compassion-5.jpg" alt="Image 13" class="myImg"></div>
+              <div class="gallery-item"><img src="Gallary-image/messangers-of-compassion-6.jpg" alt="Image 13" class="myImg"></div>
+              <div class="gallery-item"><img src="Gallary-image/messangers-of-compassion-7.jpg" alt="Image 13" class="myImg"></div>
+              <div class="gallery-item"><img src="Gallary-image/messangers-of-compassion-8.jpg" alt="Image 13" class="myImg"></div>
+              <div class="gallery-item"><img src="Gallary-image/messangers-of-compassion-19.jpg" alt="Image 13" class="myImg"></div>
+              <div class="gallery-item"><img src="Gallary-image/messangers-of-compassion-10.jpg" alt="Image 13" class="myImg"></div>
+              <div class="gallery-item"><img src="Gallary-image/messangers-of-compassion-11.jpg" alt="Image 13" class="myImg"></div>
+              <div class="gallery-item"><img src="Gallary-image/messangers-of-compassion-12.jpg" alt="Image 13" class="myImg"></div>
+              <div class="gallery-item"><img src="Gallary-image/messangers-of-compassion-13.jpg" alt="Image 13" class="myImg"></div>
+              <div class="gallery-item"><img src="Gallary-image/messangers-of-compassion-14.jpg" alt="Image 13" class="myImg"></div>
+              <div class="gallery-item"><img src="Gallary-image/messangers-of-compassion-15.jpg" alt="Image 13" class="myImg"></div>
+              <div class="gallery-item"><img src="Gallary-image/messangers-of-compassion-16.jpg" alt="Image 13" class="myImg"></div>
+              <div class="gallery-item"><img src="Gallary-image/messangers-of-compassion-17.jpg" alt="Image 13" class="myImg"></div>
+              <div class="gallery-item"><img src="Gallary-image/messangers-of-compassion-18.jpg" alt="Image 13" class="myImg"></div>
+              <div class="gallery-item"><img src="Gallary-image/messangers-of-compassion-19.jpg" alt="Image 13" class="myImg"></div>
+              <div class="gallery-item"><img src="Gallary-image/messangers-of-compassion-20.jpg" alt="Image 13" class="myImg"></div>
+              <div class="gallery-item"><img src="Gallary-image/messangers-of-compassion-21.jpg" alt="Image 13" class="myImg"></div>
+              <div class="gallery-item"><img src="Gallary-image/messangers-of-the-kingdom-7.jpg" alt="Image 13" class="myImg"></div>
+            <div class="gallery-item"><img src="Gallary-image/messangers-of-the-kingdom-8.jpg" alt="Image 13" class="myImg"></div>
+            <div class="gallery-item"><img src="Gallary-image/messangers-of-compassion-22.jpg" alt="Image 13" class="myImg"></div>
+            <div class="gallery-item"><img src="Gallary-image/messangers-of-compassion-23.jpg" alt="Image 13" class="myImg"></div>
+            <div class="gallery-item"><img src="Gallary-image/messangers-of-compassion-24.jpg" alt="Image 13" class="myImg"></div>
+            </div>
+          </div>
+        </div>
+           <!-- Single modal element -->
+           <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+          </div>
+
+          <div class="dropdown">
+            <div class="dropdown-header" onclick="toggleDropdown(this)">
+              <span>Messangers of the Gosple</span>
+              <span>2016-2018</span>
+            </div>
+            <div class="dropdown-content">
+              <div class="gallery-row">
+                <div class="gallery-item"><img src="Gallary-image/messangers-of-the-gosple.jpg" alt="Image 13" class="myImg"></div>
+              </div>
+            </div>
+          </div>
+             <!-- Single modal element -->
+             <div id="myModal" class="modal">
+              <span class="close">&times;</span>
+              <img class="modal-content" id="img01">
+              <div id="caption"></div>
+            </div>
+            <div class="dropdown">
+              <div class="dropdown-header" onclick="toggleDropdown(this)">
+                <span>Messangers of Light</span>
+                <span>2014-2016</span>
+              </div>
+              <div class="dropdown-content">
+                <div class="gallery-row">
+                  <div class="gallery-item"><img src="Gallary-image/messangers-of-light.jpg" alt="Image 13" class="myImg"></div>
+                </div>
+              </div>
+            </div>
+               <!-- Single modal element -->
+               <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+              </div>
+              <div class="dropdown">
+                <div class="dropdown-header" onclick="toggleDropdown(this)">
+                  <span>Joyful Intercessors</span>
+                  <span>2015-2017</span>
+                </div>
+                <div class="dropdown-content">
+                  <div class="gallery-row">
+                    <div class="gallery-item"><img src="Gallary-image/Joyful-intercessors.jpg" alt="Image 13" class="myImg"></div>
+                  </div>
+                </div>
+              </div>
+                 <!-- Single modal element -->
+                 <div id="myModal" class="modal">
+                  <span class="close">&times;</span>
+                  <img class="modal-content" id="img01">
+                  <div id="caption"></div>
+                </div>
+              <div class="dropdown">
+                <div class="dropdown-header" onclick="toggleDropdown(this)">
+                  <span>Heralds Of Grace</span>
+                  <span>2013-2015</span>
+                </div>
+                <div class="dropdown-content">
+                  <div class="gallery-row">
+                    <div class="gallery-item"><img src="Gallary-image/heralds-of-grace.jpg" alt="Image 13" class="myImg"></div>
+                  </div>
+                </div>
+              </div>
+                 <!-- Single modal element -->
+                 <div id="myModal" class="modal">
+                  <span class="close">&times;</span>
+                  <img class="modal-content" id="img01">
+                  <div id="caption"></div>
+                </div>
+                <div class="dropdown">
+                  <div class="dropdown-header" onclick="toggleDropdown(this)">
+                    <span>Disciples Of The Cross</span>
+                    <span>2012-2014</span>
+                  </div>
+                  <div class="dropdown-content">
+                    <div class="gallery-row">
+                      <div class="gallery-item"><img src="Gallary-image/Disciples-Of-The-Cross.jpg" alt="Image 13" class="myImg"></div>
+                    </div>
+                  </div>
+                </div>
+                   <!-- Single modal element -->
+                   <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                  </div>
+                  <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                  </div>
+                  <div class="dropdown">
+                    <div class="dropdown-header" onclick="toggleDropdown(this)">
+                      <span>Faithful Intercessors</span>
+                      <span>1997-1999</span>
+                    </div>
+                    <div class="dropdown-content">
+                      <div class="gallery-row">
+                        <div class="gallery-item"><img src="Gallary-image/faithful-intersessors.jpg" alt="Image 13" class="myImg"></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="dropdown">
+                    <div class="dropdown-header" onclick="toggleDropdown(this)">
+                      <span>Messangers Of God's Love</span>
+                      <span>1995-1997</span>
+                    </div>
+                    <div class="dropdown-content">
+                      <div class="gallery-row">
+                        <div class="gallery-item"><img src="Gallary-image/Messangers-Of-God's-Love.jpg" alt="Image 13" class="myImg"></div>
+                      </div>
+                    </div>
+                  </div>
+                     <!-- Single modal element -->
+                     <div id="myModal" class="modal">
+                      <span class="close">&times;</span>
+                      <img class="modal-content" id="img01">
+                      <div id="caption"></div>
+                    </div>
+
+                    <div class="dropdown">
+                      <div class="dropdown-header" onclick="toggleDropdown(this)">
+                        <span>Messangers Of The Truth</span>
+                        <span>1994-1996</span>
+                      </div>
+                      <div class="dropdown-content">
+                        <div class="gallery-row">
+                          <div class="gallery-item"><img src="Gallary-image/messangers-of-the-truth.jpg" alt="Image 13" class="myImg"></div>
+                        </div>
+                      </div>
+                    </div>
+                       <!-- Single modal element -->
+                       <div id="myModal" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="img01">
+                        <div id="caption"></div>
+                      </div>
+
+                  <div class="dropdown">
+                    <div class="dropdown-header" onclick="toggleDropdown(this)">
+                      <span>Witnesses for Jesus</span>
+                      <span>1988-1990</span>
+                    </div>
+                    <div class="dropdown-content">
+                      <div class="gallery-row">
+                        <div class="gallery-item"><img src="Gallary-image/witnesses-for-jesus.jpg" alt="Image 13" class="myImg"></div>
+                        <div class="gallery-item"><img src="Gallary-image/witnesses-for-jesus-1.jpg" alt="Image 13" class="myImg"></div>
+                      </div>
+                    </div>
+                  </div>
+                     <!-- Single modal element -->
+                     <div id="myModal" class="modal">
+                      <span class="close">&times;</span>
+                      <img class="modal-content" id="img01">
+                      <div id="caption"></div>
+                    </div>
+
+                    <div class="dropdown">
+                      <div class="dropdown-header" onclick="toggleDropdown(this)">
+                        <span>Ambassadors for Christ</span>
+                        <span>1987-1989</span>
+                      </div>
+                      <div class="dropdown-content">
+                        <div class="gallery-row">
+                          <div class="gallery-item"><img src="Gallary-image/abassadors-for-christ.jpg" alt="Image 13" class="myImg"></div>
+                        </div>
+                      </div>
+                    </div>
+                       <!-- Single modal element -->
+                       <div id="myModal" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="img01">
+                        <div id="caption"></div>
+                      </div>
+
+                      <div class="dropdown">
+                        <div class="dropdown-header" onclick="toggleDropdown(this)">
+                          <span>Builders Of The Kingdom</span>
+                          <span>1987-1989</span>
+                        </div>
+                        <div class="dropdown-content">
+                          <div class="gallery-row">
+                            <div class="gallery-item"><img src="Gallary-image/Builders-of-the-kingdom.jpg" alt="Image 13" class="myImg"></div>
+                          </div>
+                        </div>
+                      </div>
+                         <!-- Single modal element -->
+                         <div id="myModal" class="modal">
+                          <span class="close">&times;</span>
+                          <img class="modal-content" id="img01">
+                          <div id="caption"></div>
+                        </div>
+                        <div class="dropdown">
+                          <div class="dropdown-header" onclick="toggleDropdown(this)">
+                            <span>Guardians Of The Truth</span>
+                            <span>1983-1985</span>
+                          </div>
+                          <div class="dropdown-content">
+                            <div class="gallery-row">
+                              <div class="gallery-item"><img src="Gallary-image/guardians-of-the-truth.jpg" alt="Image 13" class="myImg"></div>
+                            </div>
+                          </div>
+                        </div>
+                           <!-- Single modal element -->
+                           <div id="myModal" class="modal">
+                            <span class="close">&times;</span>
+                            <img class="modal-content" id="img01">
+                            <div id="caption"></div>
+                          </div>
+
+                        <div class="dropdown">
+                          <div class="dropdown-header" onclick="toggleDropdown(this)">
+                            <span>Servants Of God</span>
+                            <span>1982-1984</span>
+                          </div>
+                          <div class="dropdown-content">
+                            <div class="gallery-row">
+                              <div class="gallery-item"><img src="Gallary-image/Servants-of-God.jpg" alt="Image 13" class="myImg"></div>
+                            </div>
+                          </div>
+                        </div>
+                           <!-- Single modal element -->
+                           <div id="myModal" class="modal">
+                            <span class="close">&times;</span>
+                            <img class="modal-content" id="img01">
+                            <div id="caption"></div>
+                          </div>
+
+                        <div class="dropdown">
+                          <div class="dropdown-header" onclick="toggleDropdown(this)">
+                            <span>God's Messangers</span>
+                            <span>1980-1982</span>
+                          </div>
+                          <div class="dropdown-content">
+                            <div class="gallery-row">
+                              <div class="gallery-item"><img src="Gallary-image/Builders-of-the-kingdom.jpg" alt="Image 13" class="myImg"></div>
+                            </div>
+                          </div>
+                        </div>
+                           <!-- Single modal element -->
+                           <div id="myModal" class="modal">
+                            <span class="close">&times;</span>
+                            <img class="modal-content" id="img01">
+                            <div id="caption"></div>
+                          </div>
+
+                          <div class="dropdown">
+                            <div class="dropdown-header" onclick="toggleDropdown(this)">
+                              <span>The Soldier Of Christ</span>
+                              <span>1960-1961</span>
+                            </div>
+                            <div class="dropdown-content">
+                              <div class="gallery-row">
+                                <div class="gallery-item"><img src="Gallary-image/The-Soldiers-Of-Christ.jpg" alt="Image 13" class="myImg"></div>
+                              </div>
+                            </div>
+                          </div>
+                             <!-- Single modal element -->
+                             <div id="myModal" class="modal">
+                              <span class="close">&times;</span>
+                              <img class="modal-content" id="img01">
+                              <div id="caption"></div>
+                            </div>
+                            <div class="dropdown">
+                              <div class="dropdown-header" onclick="toggleDropdown(this)">
+                                <span>Great Hearts</span>
+                                <span>1959-1960</span>
+                              </div>
+                              <div class="dropdown-content">
+                                <div class="gallery-row">
+                                  <div class="gallery-item"><img src="Gallary-image/great-hearts.jpg" alt="Image 13" class="myImg"></div>
+                                </div>
+                              </div>
+                            </div>
+                               <!-- Single modal element -->
+                               <div id="myModal" class="modal">
+                                <span class="close">&times;</span>
+                                <img class="modal-content" id="img01">
+                                <div id="caption"></div>
+                              </div>
+
+                              <div class="dropdown">
+                                <div class="dropdown-header" onclick="toggleDropdown(this)">
+                                  <span>Courageous</span>
+                                  <span>1957-1958</span>
+                                </div>
+                                <div class="dropdown-content">
+                                  <div class="gallery-row">
+                                    <div class="gallery-item"><img src="Gallary-image/courageous.jpg" alt="Image 13" class="myImg"></div>
+                                  </div>
+                                </div>
+                              </div>
+                                 <!-- Single modal element -->
+                                 <div id="myModal" class="modal">
+                                  <span class="close">&times;</span>
+                                  <img class="modal-content" id="img01">
+                                  <div id="caption"></div>
+                                </div>
+                              <div class="dropdown">
+                                <div class="dropdown-header" onclick="toggleDropdown(this)">
+                                  <span>Faithful</span>
+                                  <span>1956-1957</span>
+                                </div>
+                                <div class="dropdown-content">
+                                  <div class="gallery-row">
+                                    <div class="gallery-item"><img src="Gallary-image/faithful.jpg" alt="Image 13" class="myImg"></div>
+                                  </div>
+                                </div>
+                              </div>
+                                 <!-- Single modal element -->
+                                 <div id="myModal" class="modal">
+                                  <span class="close">&times;</span>
+                                  <img class="modal-content" id="img01">
+                                  <div id="caption"></div>
+                                </div>
+                                <div class="dropdown">
+                                  <div class="dropdown-header" onclick="toggleDropdown(this)">
+                                    <span>Sword Bearers</span>
+                                    <span>1955-1956</span>
+                                  </div>
+                                  <div class="dropdown-content">
+                                    <div class="gallery-row">
+                                      <div class="gallery-item"><img src="Gallary-image/sword-bearers.jpg" alt="Image 13" class="myImg"></div>
+                                    </div>
+                                  </div>
+                                </div>
+                                   <!-- Single modal element -->
+                                   <div id="myModal" class="modal">
+                                    <span class="close">&times;</span>
+                                    <img class="modal-content" id="img01">
+                                    <div id="caption"></div>
+                                  </div>
+
+                                <div class="dropdown">
+                                  <div class="dropdown-header" onclick="toggleDropdown(this)">
+                                    <span>Soul Winners</span>
+                                    <span>1954-1955</span>
+                                  </div>
+                                  <div class="dropdown-content">
+                                    <div class="gallery-row">
+                                      <div class="gallery-item"><img src="Gallary-image/soul-winners.jpg" alt="Image 13" class="myImg"></div>
+                                    </div>
+                                  </div>
+                                </div>
+                                   <!-- Single modal element -->
+                                   <div id="myModal" class="modal">
+                                    <span class="close">&times;</span>
+                                    <img class="modal-content" id="img01">
+                                    <div id="caption"></div>
+                                  </div>
+    
+      
+
+
+  
+
+    
+  
+  <!-- Footer section -->
+  <div class="footer">
+    <img src="image/Sal Army.png" alt="Salvation Army Logo">
+    <h3>The Salvation Army Mission Statement</h3>
+    <p>
+        The Salvation Army, an international movement, is an evangelical part of the universal Christian Church. <br>
+        Its message is based on the Bible. Its ministry is motivated by the love of God. Its mission is to preach <br>
+        the gospel of Jesus Christ and to meet human needs in His name without discrimination.
+    </p>
+    <!-- Footer navigation links -->
+  <nav class="footer-nav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="message.html">Message</a></li>
+      <li><a href="#contact-btn">Contact</a></li>
+    </ul>
+  </nav>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="toogle.js"></script>
+  <script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+    
+    // Get the images and insert them inside the modal - use their "alt" text as a caption
+    var images = document.getElementsByClassName("myImg");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    
+    for (var i = 0; i < images.length; i++) {
+      images[i].onclick = function() {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
+    }
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+    </script>
+</body>
+</html>
