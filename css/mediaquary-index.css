@@ -52,8 +52,11 @@
       line-height: 1.5;
     }
     .slideshow .prev .next{
-        display: none;
+        /*display: none;*/
     }
+  .slideshow{
+    height: 50vh;
+  }
 }
   @media (max-width: 1207px) {
       .slider-text {
