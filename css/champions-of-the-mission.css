@@ -340,6 +340,7 @@
 }
 
 
+
 /*Alternative way*/
 #sub-heading{
   font-size: 2.6em;
@@ -730,6 +731,9 @@ iframe{
   .map-placeholder p {
     font-size: 14px;
   }
+  .adjust{
+margin-bottom: 30px
+}
 
   .contact-form h2 {
     font-size: 20px;
