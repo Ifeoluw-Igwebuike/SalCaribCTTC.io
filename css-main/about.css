@@ -231,7 +231,8 @@ padding: 12px 16px;
 }
 
 .team-photo {
-  width: auto;
+  max-width: auto;
+  width: 400px;
   height: 300px;
   border-radius: 30%;
 }
