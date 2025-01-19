@@ -55,7 +55,7 @@
         /*display: none;*/
     }
   .slideshow{
-    height: 50vh;
+    height: 60vh;
   }
 }
   @media (max-width: 1207px) {
@@ -272,7 +272,7 @@
   }
   /*Slide button*/
   .slideshow >.prev, .next {
-    display: none;
+    /*display: none;*/
   }
 }
 
